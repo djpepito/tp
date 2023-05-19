@@ -1,0 +1,148 @@
+
+  body {
+    background-image: url(/imagenes/ml-backgroud.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: black;
+  }
+  /*video of yt*/
+  #videoMl {
+    position: absolute;
+    top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+  }
+  .videoMl{
+    position: relative;
+    z-index: -100;
+    margin-top: 3600px;
+    margin-left: 50px;
+
+  }
+  .new-txt{
+    color: #f2f2f2;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 0px;
+    text-align: center;
+    text-shadow:2px 2px #000000;
+  }
+  /*margin*/
+  .Home.container {
+    position: fixed;
+  }
+  
+  .logo {
+    display: inline-block;
+    width: 13px; 
+    height: 13px; 
+    background-image: url(/imagenes/boton-inicio.png);
+    background-size: cover;
+    background-position: sticky;
+    top: 25px;
+    transition: top 0.3s ease-in-out;
+    z-index: 100;
+    margin-left: -690px;
+    margin-top: -15px;
+    
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+  }
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 25px;
+    width: 100%;
+    z-index: 100; 
+    transition: top 0.3s ease-in-out;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin-left: 0;
+}
+
+.navbar li:first-child {
+  margin-left: 0;
+}
+
+.navbar li a {
+  padding: 30px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #070010;
+}
+/*text of margin*/
+.text-header{ 
+  margin-top: 150px;
+}
+.text-header h1 {
+  color: #f2f2f2;
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 60px;
+}
+
+.text-main p {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: normal;
+  text-shadow:2px 2px #000000;
+  margin-left: 20px;
+  
+}
+.map {
+  width: 700px;
+  margin-left: 50px;
+}
+.heros{
+  width: 700px;
+  margin-left: 50px;
+}
+.jungle{
+  width: 700px;
+  margin-left: 50px;
+}
+.torre-con-placa{
+  width: 700px;
+  margin-left: 50px;
+}
+.torre-sin-placa{
+  width: 600px;
+  margin-left: 50px;
+}
+.nexo{
+  width: 700px;
+  margin-left: 50px;
+}
+
+
+/*footer o pie de pagina*/
+.footer {
+  margin-top: 850px;
+  background-color: #030009;
+  padding: 10px;
+  text-align: center;
+}
+.container{
+  color: #ffffff;
+}
+
+
+
+
